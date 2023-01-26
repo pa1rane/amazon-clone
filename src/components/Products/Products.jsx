@@ -29,7 +29,7 @@ const Products = () => {
                 <div className={css.list}>
                     {
                         MenuProducts.map((product, i) => (
-                            <div className={css.product}>
+                            <div className={css.product} key={i}>
                                 <div className='left-s'>
                                     <div className='name'>
                                         <span>{product.name}</span>
